@@ -13,7 +13,6 @@ public class TestServlet extends HttpServlet{
 	@Override
 	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 		System.out.println(123);
-		int a =aa;
 		req.getRequestDispatcher("index.jsp").forward(req, resp);
 	}
 }
